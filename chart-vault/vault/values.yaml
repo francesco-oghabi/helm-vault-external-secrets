@@ -4,6 +4,7 @@ cert-manager:
   namespace: default
 
 # Disable because using argocd
+# https://github.com/longhorn/longhorn/issues/6415
 longhorn:
   preUpgradeChecker:
     jobEnabled: false
