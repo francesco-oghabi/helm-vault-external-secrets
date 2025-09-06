@@ -2,3 +2,8 @@ cert-manager:
   enabled: true
   installCRDs: true
   namespace: default
+
+# Disable because using argocd
+longhorn:
+  preUpgradeChecker:
+    jobEnabled: false
